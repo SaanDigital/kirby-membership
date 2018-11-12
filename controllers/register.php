@@ -22,7 +22,7 @@ return function ($site, $pages, $page) {
 		$duplicateEmail = $site->users()->findBy('email',trim(get('email')));
 		$duplicateUsername = $site->users()->findBy('username',$username);
 
-		if(count($duplicateEmail) === 0 and count($duplicateUsername) === 0) {
+		if(count((array)$duplicateEmail) === 0 and count((array)$duplicateUsername) === 0) {
 			try {
 				// Mot de passe aléatoire pour la configuration initiale.
 				// L'utilisateur va créer son propre mot de passe après la vérification par adresse courriel.
