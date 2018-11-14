@@ -2,11 +2,11 @@
 	// All pages
 	'membership.firstname' => 'Vorname',
 	'membership.lastname'  => 'Name',
-	'membership.email'     => 'EMail',
+	'membership.email'     => 'E-Mail',
 	'membership.password'  => 'Passwort',
 	'membership.update'    => 'Update',
 	'membership.login'     => 'Anmelden',
-	'membership.register'  => 'Regristrieren',
+	'membership.register'  => 'Registrieren',
 	'membership.cancel'    => 'Abbrechen',
 	'membership.delete'    => 'Account löschen',
 
@@ -34,7 +34,7 @@
 	'membership.password.label'          => 'Neues Passwort',
 	'membership.password.error'          => 'Gib ein gültiges Passwort ein.',
 	'membership.password.update.success' => 'Passwort wurde geändert.',
-	'membership.password.update.error'   => 'Registrierung des Passworts schlug fehl!',
+	'membership.password.update.error'   => 'Änderung des Passworts schlug fehl!',
 
 	// Register
 	'membership.register.title'        => 'Registrieren',
@@ -47,18 +47,18 @@
 	// Reset
 	'membership.reset.title'        => 'Passwort zurücksetzen',
 	'membership.reset'              => 'zurücksetzen',
-	'membership.reset.send.success' => 'Wir schicken dir ein EMail mit den weiteren Instruktionen um das Passwort zurückzusetzen.',
+	'membership.reset.send.success' => 'Wir schicken dir ein E-Mail mit den weiteren Instruktionen um das Passwort zurückzusetzen.',
 	'membership.reset.send.error'   => 'Das E-Mail konnte nicht gesendet werden! Versuch es später nochmals.',
 	'membership.reset.error'        => 'Es gibt kein Account zu dieser E-Mail-Adresse!',
 
 	// Send email
 	'membership.send.hello'          => 'Hallo',
 	'membership.send.active.subject' => 'Aktiviere dein Account - '.str_replace('www.', '', $_SERVER['HTTP_HOST']).'',
-	'membership.send.active.body'    => 'Danke für die Registrierung '.str_replace('www.', '', $_SERVER['HTTP_HOST']).'. Aktiviere nun dein Account indem du auf den Button klickst.',
+	'membership.send.active.body'    => 'Danke für die Registrierung bei '.str_replace('www.', '', $_SERVER['HTTP_HOST']).'. Aktiviere nun dein Account indem du auf den Button klickst.',
 	'membership.send.active.link'    => 'Aktiviere mein Account',
 
 	'membership.send.reset.subject'  => 'Passwort zurücksetzen - '.str_replace('www.', '', $_SERVER['HTTP_HOST']).'',
-	'membership.send.reset.body'     => 'Jemand (hoffentlich du) wollte dein Passwort zurücksetzen für den Account bei '.str_replace('www.', '', $_SERVER['HTTP_HOST']).'.
-	Falls du es das Passwort zurücksetzen willst, klicke auf den Button. Wenn nicht, lösche dieses E-Mail.',
+	'membership.send.reset.body'     => 'Jemand, (hoffentlich du?) wollte dein Passwort zurücksetzen für den Account bei '.str_replace('www.', '', $_SERVER['HTTP_HOST']).'. 
+	Falls du das Passwort zurücksetzen willst, klicke auf den Button. Wenn nicht, lösche dieses E-Mail.',
 	'membership.send.reset.link'     => 'Passwort zurücksetzen',
 ]);
